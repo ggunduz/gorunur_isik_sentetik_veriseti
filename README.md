@@ -31,3 +31,20 @@ Verisetini olusturmak icin  `gorunur_isik_sentetik_veriseti/create_dataset.ipynb
 
 ## Ornek Sentetik Veri Olusumu
 
+Asama 1 sonrasi rasgele secilmis arka plan gorseli:
+
+![image info](./assets/back.jpg)
+
+Asama 2 sonrasi MS COCO verisetinden rasgele `insan, arac, hayvan` objelerinden goruntunun orijinali ve mask gorseli:
+
+![image info](./assets/object_image.jpg)
+![image info](./assets/mask_image.jpg)
+
+
+Asama 3 ve 4 sonrasi olusabilecek `insan` sinifina ait sentetik gorseller ise:
+
+-Gunes parlamasi data augmentation yontemi eklenmis.
+![image info](./assets/final_1.jpg)
+
+-Blur data augmentation yontemi eklenmis.
+![image info](./assets/final_6.jpg)
