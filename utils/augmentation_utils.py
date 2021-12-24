@@ -15,7 +15,7 @@ def apply_augmentation(image):
     #A.RandomCrop(width=256, height=256),
     A.Blur(p=0.2),
     A.HorizontalFlip(p=0.5),
-    A.RandomBrightnessContrast(p=0.2),
+    #A.RandomBrightnessContrast(p=0.2),
 ])
 
 
